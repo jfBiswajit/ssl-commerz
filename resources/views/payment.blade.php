@@ -90,8 +90,8 @@
                                                     <i class="fa fa-money"></i>
                                                 </span>
                                             </div>
-                                            <input name="due_amt" type="number" class="form-control" id="address" value=""
-                                                required>
+                                            <input name="due_amt" type="number" class="form-control" id="address"
+                                                disabled value="500">
                                         </div>
                                     </div>
                                     
