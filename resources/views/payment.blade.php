@@ -376,8 +376,8 @@
                                                     <i class="fa fa-money"></i>
                                                 </span>
                                             </div>
-                                            <input type="number" name="amount" class="form-control" id="amount"
-                                                placeholder="Amount in Bangladeshi Taka" required="">
+                                            <input name="amt" type="text" class="form-control" id="address" value="2000"
+                                                required>
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-left">

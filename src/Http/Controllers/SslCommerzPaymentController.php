@@ -20,7 +20,7 @@ class SslCommerzPaymentController extends Controller
     # Here you have to receive all the order data to initate the payment.
     # Let's say, your oder transaction informations are saving in a table called "orders"
     # In "orders" table, order unique identity is "transaction_id". "status" field contain status of the transaction, "amount" is the order amount to be paid and "currency" is for storing Site Currency which will be checked with paid currency.
-
+    
     $post_data = array();
     $post_data['total_amount'] = $request->amt; # You cant not pay less than 10
     $post_data['currency'] = "BDT";
@@ -58,20 +58,6 @@ class SslCommerzPaymentController extends Controller
     $post_data['value_b'] = "ref002";
     $post_data['value_c'] = "ref003";
     $post_data['value_d'] = "ref004";
-
-    #Before  going to initiate the payment order status need to insert or update as Pending.
-    $update_product = DB::table('orders')
-      ->where('transaction_id', $post_data['tran_id'])
-      ->updateOrInsert([
-        'name' => $post_data['cus_name'],
-        'email' => $post_data['cus_email'],
-        'phone' => $post_data['cus_phone'],
-        'amount' => $post_data['total_amount'],
-        'status' => 'Pending',
-        'address' => $post_data['cus_add1'],
-        'transaction_id' => $post_data['tran_id'],
-        'currency' => $post_data['currency']
-      ]);
 
     $sslc = new SslCommerzNotification();
     # initiate(Transaction Data , false: Redirect to SSLCOMMERZ gateway/ true: Show all the Payement gateway here )
