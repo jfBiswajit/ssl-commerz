@@ -46,7 +46,7 @@
                                         <div class="input-group mb-2">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text">
-                                                    <i class="fa fa-user"></i>
+                                                    <i class="fas fa-home"></i>
                                                 </span>
                                             </div>
                                             <input type="text" name="company" class="form-control" id="user_name"
@@ -57,15 +57,15 @@
 
                                 <div class="form-row">
                                     <div class="col-md-6 text-left">
-                                        <label for="address">Address</label>
+                                        <label for="email">Email</label>
                                         <div class="input-group mb-2">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text">
-                                                    <i class="fa fa-map-marker"></i>
+                                                    <i class="fa fa-envelope"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" name="address" class="form-control" id="address"
-                                                placeholder="Your Address" required="">
+                                            <input type="email" name="email" class="form-control" id="email"
+                                                placeholder="Your Email Address" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-6 text-left">
@@ -83,17 +83,18 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="col-md-6 text-left">
-                                        <label for="email">Email</label>
+                                        <label for="amount">Due Amount (BDT)</label>
                                         <div class="input-group mb-2">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text">
-                                                    <i class="fa fa-envelope"></i>
+                                                    <i class="fa fa-money"></i>
                                                 </span>
                                             </div>
-                                            <input type="email" name="email" class="form-control" id="email"
-                                                placeholder="Your Email Address" required="">
+                                            <input name="due_amt" type="number" class="form-control" id="address" value=""
+                                                required>
                                         </div>
                                     </div>
+                                    
                                     <div class="col-md-6 text-left">
                                         <label for="amount">Payment Amount (BDT)</label>
                                         <div class="input-group mb-2">
@@ -102,7 +103,8 @@
                                                     <i class="fa fa-money"></i>
                                                 </span>
                                             </div>
-                                            <input name="amt" type="number" class="form-control" id="address" value=""
+                                            <input name="pay_amt" type="number" class="form-control" id="address"
+                                                value=""
                                                 required>
                                         </div>
                                     </div>
