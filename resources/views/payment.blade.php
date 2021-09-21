@@ -392,10 +392,7 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <button class="btn btn-sm btn-danger btn-block btn-lg btn-pill">Pay Now</button>
-
-
+                                <button class="btn btn-danger btn-block btn-lg" type="submit">Pay Now</button>
                             </div>
                         </form>
                     </div>
