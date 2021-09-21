@@ -10,14 +10,9 @@ use JfBiswajit\SSLCommerz\Library\SslCommerzNotification;
 class SslCommerzPaymentController extends Controller
 {
 
-  public function exampleEasyCheckout()
-  {
-    return view('jfbiswajit/ssl-commerz::exampleEasycheckout');
-  }
-
   public function payment()
   {
-    return view('jfbiswajit/ssl-commerz::exampleHosted');
+    return view('jfbiswajit/ssl-commerz::payment');
   }
 
   public function getPaymentInfo(Request $request)
@@ -86,6 +81,11 @@ class SslCommerzPaymentController extends Controller
       print_r($payment_options);
       $payment_options = array();
     }
+  }
+
+  public function exampleEasyCheckout()
+  {
+    return view('jfbiswajit/ssl-commerz::exampleEasycheckout');
   }
 
   public function payViaAjax(Request $request)
