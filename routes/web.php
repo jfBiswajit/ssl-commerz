@@ -1,5 +1,6 @@
 <?php
 
+use JfBiswajit\SSLCommerz\Http\Controllers\SslCommerzPaymentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +13,6 @@
 |
 */
 
-use JfBiswajit\SSLCommerz\Http\Controllers\SslCommerzPaymentController;
 
 Route::get('/', function () {
     return view('welcome');
