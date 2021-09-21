@@ -23,11 +23,11 @@
     a {
         text-decoration: none;
         outline: none;
-        color: #fa607e;
+        color: #EBBC63;
     }
 
     a:hover {
-        color: #ff0033;
+        color: #caa154;
     }
 
     a:hover,
@@ -165,7 +165,7 @@
     }
 
     .form-payment-body .payment-desk .paymentform {
-        background-color: #4c56c0;
+        background-color: #0597D1;
         text-align: center;
         color: #FFF;
         padding: 20px;
@@ -185,14 +185,14 @@
     }
 
     .form-payment-body .payment-desk .paymentform .payment-det .input-group .input-group-prepend .input-group-text {
-        background-color: #3d46a7;
+        background-color: #006EA1;
         color: #ffffffcf;
         border-right: 0px;
         border: 0px;
     }
 
     .form-payment-body .payment-desk .paymentform .payment-det .input-group .form-control {
-        background-color: #3d46a7;
+        background-color: #006EA1;
         color: #FFF;
         border-left: 0px;
         border: 0px;
@@ -294,7 +294,7 @@
                             <p>Call +880-18XXXXXXXX</p>
                         </div>
                         <hr>
-                        <p>© 2021 <a href="https://www.pipexbd.com">Aqualink Bangladesh Ltd</a></p>
+                        <p style="color: red">© 2021 <a style="color: red" href="#">Aqualink Bangladesh Ltd</a></p>
 
                     </div>
                     <div class="col-md-7 paymentform">
@@ -376,7 +376,7 @@
                                                     <i class="fa fa-money"></i>
                                                 </span>
                                             </div>
-                                            <input name="amt" type="text" class="form-control" id="address" value="2000"
+                                            <input name="amt" type="number" class="form-control" id="address" value=""
                                                 required>
                                         </div>
                                     </div>
