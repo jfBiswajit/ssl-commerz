@@ -298,9 +298,9 @@
 
                     </div>
                     <div class="col-md-7 paymentform">
-                        <h2 style="color: white">Online Payment</h2>
-                        <p class="border-bottom-1">Payment Information</p>
-                        <form action="{{ url('/get-payment-info') }}" method="POST" class="needs-validation">
+                        <h2 style="color: white">ONLINE PAYMENT</h2>
+                        <h5 style="color: rgba(255, 255, 255, 0.685)" class="border-bottom-1">Payment Information</h5>
+                        <form action="{{ url('/checkout') }}" method="POST" class="needs-validation">
                             <div class="payment-det">
                                 <div class="form-row">
                                     <div class="col-md-6 text-left">

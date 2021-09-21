@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/get-payment-info', [SslCommerzPaymentController::class, 'getPaymentInfo']);
+Route::post('/checkout', [SslCommerzPaymentController::class, 'getPaymentInfo']);
 Route::get('/payment', [SslCommerzPaymentController::class, 'payment']);
 Route::post('/payment-successfull', [SslCommerzPaymentController::class, 'paymentSuccessfull']);
 
