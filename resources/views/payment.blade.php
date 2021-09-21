@@ -2,14 +2,6 @@
 
 @section('css')
 <style>
-    /* =======================================================================
-  Template Name: Pipex Payment
-  Author: James
-  Author URI: https://www.facebook.com/shahazadaaliimam/
-  Version: 1.0
-  Description: This Template is created for Pipex Online Payment
-  ======================================================================= */
-
     * {
         margin: 0px;
         padding: 0px;
