@@ -15,7 +15,7 @@ class SslCommerzPaymentController extends Controller
     return view('jfbiswajit/ssl-commerz::payment');
   }
 
-  public function getPaymentInfo(Request $request)
+  public function checkout(Request $request)
   {
     # Here you have to receive all the order data to initate the payment.
     # Let's say, your oder transaction informations are saving in a table called "orders"
@@ -76,7 +76,6 @@ class SslCommerzPaymentController extends Controller
 
   public function payViaAjax(Request $request)
   {
-
     # Here you have to receive all the order data to initate the payment.
     # Lets your oder trnsaction informations are saving in a table called "orders"
     # In orders table order uniq identity is "transaction_id","status" field contain status of the transaction, "amount" is the order amount to be paid and "currency" is for storing Site Currency which will be checked with paid currency.

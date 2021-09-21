@@ -290,7 +290,7 @@
                             alt="Pipex Network">
                         <div class="detailsh">
                             <img class="help" src="https://payment.pipexbd.com/assets/images/help.png" alt="">
-                            <h3>24 x 7 Premium Support</h3>
+                            <h3>24x7 Premium Support</h3>
                             <p>Call +880-18XXXXXXXX</p>
                         </div>
                         <hr>
@@ -311,7 +311,7 @@
                                                     <i class="fa fa-user"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" name="customer_name" class="form-control"
+                                            <input type="text" name="name" class="form-control"
                                                 id="customer_name" placeholder="Your Full Name" required="">
                                         </div>
                                     </div>
@@ -323,7 +323,7 @@
                                                     <i class="fa fa-user"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" name="user_name" class="form-control" id="user_name"
+                                            <input type="text" name="company" class="form-control" id="user_name"
                                                 placeholder="Company Name" required="">
                                         </div>
                                     </div>
@@ -339,7 +339,7 @@
                                                 </span>
                                             </div>
                                             <input type="text" name="address" class="form-control" id="address"
-                                                placeholder="Your Connection Address" required="">
+                                                placeholder="Your Address" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-6 text-left">
@@ -350,7 +350,7 @@
                                                     <i class="fa fa-phone"></i>
                                                 </span>
                                             </div>
-                                            <input type="text" name="customer_mobile" class="form-control" id="mobile"
+                                            <input type="text" name="mobile" class="form-control" id="mobile"
                                                 placeholder="01XXXXXXXXX" required="">
                                         </div>
                                     </div>
@@ -364,7 +364,7 @@
                                                     <i class="fa fa-envelope"></i>
                                                 </span>
                                             </div>
-                                            <input type="email" name="customer_email" class="form-control" id="email"
+                                            <input type="email" name="email" class="form-control" id="email"
                                                 placeholder="Your Email Address" required="">
                                         </div>
                                     </div>
